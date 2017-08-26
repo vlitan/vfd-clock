@@ -6535,18 +6535,15 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 </net>
 <net name="SCK" class="0">
 <segment>
-<pinref part="R36" gate="G$1" pin="2"/>
-<label x="464.82" y="5.08" size="1.778" layer="95"/>
-<pinref part="JP4" gate="A" pin="4"/>
-<wire x1="568.96" y1="137.16" x2="480.06" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="480.06" y1="137.16" x2="480.06" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="480.06" y1="5.08" x2="459.74" y2="5.08" width="0.1524" layer="91"/>
-<label x="546.1" y="137.16" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="JP13" gate="A" pin="3"/>
 <wire x1="259.08" y1="-259.08" x2="248.92" y2="-259.08" width="0.1524" layer="91"/>
 <label x="248.92" y="-259.08" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="PB5(SCK)"/>
+<label x="292.1" y="-223.52" size="1.778" layer="95"/>
+<pinref part="JP16" gate="A" pin="9"/>
+<wire x1="292.1" y1="-223.52" x2="330.2" y2="-223.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="20V" class="0">
@@ -7261,12 +7258,26 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 <wire x1="259.08" y1="-256.54" x2="248.92" y2="-256.54" width="0.1524" layer="91"/>
 <label x="248.92" y="-256.54" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="PB4(MISO)"/>
+<wire x1="299.72" y1="-220.98" x2="297.18" y2="-220.98" width="0.1524" layer="91"/>
+<label x="292.1" y="-220.98" size="1.778" layer="95"/>
+<pinref part="JP16" gate="A" pin="8"/>
+<wire x1="297.18" y1="-220.98" x2="292.1" y2="-220.98" width="0.1524" layer="91"/>
+<wire x1="330.2" y1="-220.98" x2="299.72" y2="-220.98" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="MOSI" class="0">
 <segment>
 <pinref part="JP13" gate="A" pin="4"/>
 <wire x1="266.7" y1="-259.08" x2="276.86" y2="-259.08" width="0.1524" layer="91"/>
 <label x="271.78" y="-259.08" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="PB3(MOSI/OC2)"/>
+<label x="292.1" y="-218.44" size="1.778" layer="95"/>
+<pinref part="JP16" gate="A" pin="7"/>
+<wire x1="330.2" y1="-218.44" x2="292.1" y2="-218.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RESET" class="0">
@@ -7580,32 +7591,6 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 <wire x1="195.58" y1="106.68" x2="205.74" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$11" class="0">
-<segment>
-<pinref part="IC2" gate="G$1" pin="PB5(SCK)"/>
-<label x="292.1" y="-223.52" size="1.778" layer="95"/>
-<pinref part="JP16" gate="A" pin="9"/>
-<wire x1="292.1" y1="-223.52" x2="330.2" y2="-223.52" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$12" class="0">
-<segment>
-<pinref part="IC2" gate="G$1" pin="PB4(MISO)"/>
-<wire x1="299.72" y1="-220.98" x2="297.18" y2="-220.98" width="0.1524" layer="91"/>
-<label x="292.1" y="-220.98" size="1.778" layer="95"/>
-<pinref part="JP16" gate="A" pin="8"/>
-<wire x1="297.18" y1="-220.98" x2="292.1" y2="-220.98" width="0.1524" layer="91"/>
-<wire x1="330.2" y1="-220.98" x2="299.72" y2="-220.98" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$13" class="0">
-<segment>
-<pinref part="IC2" gate="G$1" pin="PB3(MOSI/OC2)"/>
-<label x="292.1" y="-218.44" size="1.778" layer="95"/>
-<pinref part="JP16" gate="A" pin="7"/>
-<wire x1="330.2" y1="-218.44" x2="292.1" y2="-218.44" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$15" class="0">
 <segment>
 <pinref part="JP16" gate="A" pin="6"/>
@@ -7677,6 +7662,17 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 <pinref part="JP4" gate="A" pin="8"/>
 <pinref part="R22" gate="G$1" pin="1"/>
 <wire x1="568.96" y1="127" x2="568.96" y2="119.38" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="SELECT4.1" class="0">
+<segment>
+<pinref part="R36" gate="G$1" pin="2"/>
+<label x="464.82" y="5.08" size="1.778" layer="95"/>
+<pinref part="JP4" gate="A" pin="4"/>
+<wire x1="568.96" y1="137.16" x2="480.06" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="480.06" y1="137.16" x2="480.06" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="480.06" y1="5.08" x2="459.74" y2="5.08" width="0.1524" layer="91"/>
+<label x="546.1" y="137.16" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
