@@ -6179,16 +6179,16 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 <part name="P+23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="GND40" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U$15" library="LM27313" deviceset="LM27313DEV" device=""/>
-<part name="R69" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1206"/>
-<part name="R70" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1206"/>
-<part name="C13" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="C" device="C1206"/>
+<part name="R69" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1206" value="13k"/>
+<part name="R70" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1206" value="200k"/>
+<part name="C13" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="C" device="C1206" value="120pF"/>
 <part name="C14" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="C" device="C1206"/>
-<part name="C15" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="C" device="C1206"/>
+<part name="C15" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="C" device="C1206" value="470nF"/>
 <part name="U$16" library="BYS10-25" deviceset="BYS10" device=""/>
 <part name="U$17" library="djnr5020" deviceset="INDUCTOR" device=""/>
 <part name="U$18" library="LMR14206" deviceset="LMR14206DEV" device=""/>
-<part name="R71" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1206" value="1k"/>
-<part name="R72" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1206" value="1k"/>
+<part name="R71" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1206" value="10k"/>
+<part name="R72" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1206" value="10k"/>
 <part name="C16" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="C" device="C1206" value="10uF"/>
 <part name="U$19" library="djnr5020" deviceset="INDUCTOR" device="" value="15uH"/>
 <part name="C17" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="C" device="C1206" value="470nF"/>
