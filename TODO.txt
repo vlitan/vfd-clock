@@ -1,0 +1,12 @@
+TODO
+1) mill sub baterie, pentru schimbare usoara
+DONE 3) rezistenta pull up reste, circuit buzzer, compactat
+DONE 4) datorita 2) si 3) => design mai compact
+5) din cauza 4) => trebuie compactata placa cu tuburi
+DONE5.1) mutat transistoare
+DONE5.2) poate mutat rezistentele de 1K pe cealalta placa
+6) pannel design. legate cele 2 placi pentru testare mai usoara
+7) ground plane?
+8) mufa programare "exterioara" / padduri / .. ?
+
+REVERT 5.2) si 5.1)
