@@ -6089,6 +6089,8 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
+<class number="1" name="gnd" width="2.54" drill="0">
+</class>
 </classes>
 <parts>
 <part name="T15" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="*-NPN-" device="SOT23-BEC" technology="BC817-25"/>
