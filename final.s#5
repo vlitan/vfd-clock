@@ -7271,6 +7271,32 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 <label x="530.86" y="-208.28" size="1.778" layer="95"/>
 <pinref part="U$8" gate="G$1" pin="1"/>
 </segment>
+<segment>
+<pinref part="U$4" gate="G$1" pin="FILAMENT1"/>
+<wire x1="426.72" y1="20.32" x2="431.8" y2="20.32" width="0.1524" layer="91"/>
+<label x="429.26" y="20.32" size="1.778" layer="95"/>
+<wire x1="431.8" y1="20.32" x2="431.8" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="431.8" y1="35.56" x2="490.22" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="490.22" y1="35.56" x2="490.22" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="JP4" gate="A" pin="6"/>
+<wire x1="490.22" y1="132.08" x2="568.96" y2="132.08" width="0.1524" layer="91"/>
+<label x="546.1" y="132.08" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="FILAMENT1"/>
+<wire x1="426.72" y1="203.2" x2="431.8" y2="203.2" width="0.1524" layer="91"/>
+<label x="429.26" y="203.2" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="FILAMENT1"/>
+<wire x1="426.72" y1="142.24" x2="431.8" y2="142.24" width="0.1524" layer="91"/>
+<label x="429.26" y="142.24" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="FILAMENT1"/>
+<wire x1="426.72" y1="81.28" x2="431.8" y2="81.28" width="0.1524" layer="91"/>
+<label x="429.26" y="81.28" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SELECT4" class="0">
 <segment>
@@ -7667,36 +7693,6 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 <wire x1="279.4" y1="172.72" x2="269.24" y2="172.72" width="0.1524" layer="91"/>
 <junction x="279.4" y="172.72"/>
 <label x="269.24" y="172.72" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="1.5VD" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="FILAMENT1"/>
-<wire x1="426.72" y1="203.2" x2="431.8" y2="203.2" width="0.1524" layer="91"/>
-<label x="429.26" y="203.2" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U$2" gate="G$1" pin="FILAMENT1"/>
-<wire x1="426.72" y1="142.24" x2="431.8" y2="142.24" width="0.1524" layer="91"/>
-<label x="429.26" y="142.24" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U$3" gate="G$1" pin="FILAMENT1"/>
-<wire x1="426.72" y1="81.28" x2="431.8" y2="81.28" width="0.1524" layer="91"/>
-<label x="429.26" y="81.28" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="1.5V" class="0">
-<segment>
-<pinref part="U$4" gate="G$1" pin="FILAMENT1"/>
-<wire x1="426.72" y1="20.32" x2="431.8" y2="20.32" width="0.1524" layer="91"/>
-<label x="429.26" y="20.32" size="1.778" layer="95"/>
-<wire x1="431.8" y1="20.32" x2="431.8" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="431.8" y1="35.56" x2="490.22" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="490.22" y1="35.56" x2="490.22" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="JP4" gate="A" pin="6"/>
-<wire x1="490.22" y1="132.08" x2="568.96" y2="132.08" width="0.1524" layer="91"/>
-<label x="546.1" y="132.08" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
